@@ -1,18 +1,30 @@
-## Getting Started
+# 🔒 Cofre Sonoro
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Um simples simulador de **cofre digital com senha sonora** desenvolvido em **Java**.  
+O cofre só é aberto quando o usuário digita a sequência correta de **4 notas musicais** na ordem certa.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📜 Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- O programa solicita ao usuário que insira **4 notas musicais** separadas por espaço.
+- A senha correta está **pré-definida** como:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- O usuário possui até **3 tentativas** para acertar a sequência.
+- Respostas possíveis:
+  - ✅ `"Cofre aberto com sucesso!"` → quando a sequência estiver correta.
+  - ⚠️ `"Sequência incorreta."` → quando errar a sequência.
+  - ⛔ `"Número máximo de tentativas excedido. Cofre permanece trancado."` → após 3 erros.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🖥️ Exemplo de uso
+
+```bash
+Bem-vindo ao Cofre Sonoro!
+Digite 4 notas separadas por espaço, sem acento (ex: DO RE MI FA):
+
+Tentativa 1 de 3:
+> DO RE MI FA
+Cofre aberto com sucesso!
