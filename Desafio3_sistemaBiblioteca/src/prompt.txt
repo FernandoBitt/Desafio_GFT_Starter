@@ -1,0 +1,39 @@
+Atue como um desenvolvedor especializado em [Java]. Preciso criar um sistema de gerenciamento de 
+biblioteca seguindo os princípios de POO com os seguintes requisitos:
+
+**Requisitos Principais:**
+1. Classe `Livro` com propriedades: Titulo (string), Autor (string), AnoPublicacao (int)
+2. Classe `Biblioteca` que armazene uma coleção de livros
+3. Funcionalidades:
+   - Adicionar novos livros à biblioteca
+   - Listar todos os livros disponíveis
+   - Buscar livros por autor (retornando todos os livros do autor especificado)
+   - (Desafio extra) Remover livros da biblioteca
+
+**Restrições Técnicas:**
+- Use programação orientada a objetos com encapsulamento adequado
+- Implemente tratamento de exceções para operações críticas
+- Crie um menu interativo no console para que usuários possam interagir com o sistema
+- Use coleções apropriadas para armazenamento dos livros
+- Mantenha o código limpo e bem documentado
+
+**Entregáveis Esperados:**
+1. Código completo das classes Livro e Biblioteca
+2. Classe principal com método main contendo o menu interativo
+3. Exemplos de uso demonstrando todas as funcionalidades
+4. Tratamento de casos edge (como lista vazia, livros não encontrados, etc.)
+
+**Formato de Saída:**
+Por favor, forneça:
+- O código completo pronto para compilar e executar
+- Breve explicação das escolhas de implementação
+- Exemplo de uso com pelo menos 5 livros diferentes
+
+Inclua também testes simples que demonstrem:
+- Adição de livros
+- Listagem completa
+- Busca por autor específico
+- Remoção de livro (se implementado)
+- Tratamento de tentativa de remover livro inexistente
+
+O sistema deve ser intuitivo e seguir as melhores práticas de desenvolvimento na linguagem escolhida.
