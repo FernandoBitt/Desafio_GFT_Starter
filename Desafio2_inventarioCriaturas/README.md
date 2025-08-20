@@ -1,18 +1,26 @@
-## Getting Started
+# 🐉 Inventário de Criaturas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Um sistema simples em **Java** para gerenciamento de criaturas míticas.  
+O programa permite armazenar criaturas em um inventário, exibir todas elas e identificar a mais poderosa com base em sua **força total**.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📜 Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Adicionar criaturas** ao inventário
+- **Exibir todas as criaturas** cadastradas
+- **Calcular e mostrar a criatura mais poderosa**
+- Estrutura orientada a objetos com diferentes classes de criaturas (ex: `Dragao`, `Fenix`, `Grifo`)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🖥️ Exemplo de Uso
 
-## Dependency Management
+### Saída esperada:
+```bash
+=== Todas as Criaturas no Inventário ===
+Dragao - Habilidade: Sopro de Fogo, Poder: 50, Força Total: 150
+Fenix - Habilidade: Renascimento, Poder: 30, Força Total: 187
+Grifo - Habilidade: Voo Veloz, Poder: 40, Força Total: 160
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Criatura mais poderosa: Fenix (Poder: 30, Força Total: 187)
